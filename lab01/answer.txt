@@ -1,0 +1,7 @@
+Questions:
+- What happens if users choose “Cancel”?
+ In this cases, selecting “Cancel” will stop the current operation or close the current dialog box, then user can continue to work with this program
+- How to customize the options to users, e.g. only two options: “Yes” and “No”, OR “I do” and “I don’t” (Suggestion: Use Javadocs or using Eclipse/Netbean IDE help).
+
+Customizing options for users in a program can be achieved in various ways depending on the programming language and the development environment you are using. Here are some general methods:
+Java (Javadocs): You can use Java’s built-in functionality to create a menu of options for the user. This can be done by using conditional statements (like if or switch) to handle the user’s input. Javadocs can be used to document this process, providing information about the methods and their parameter.
