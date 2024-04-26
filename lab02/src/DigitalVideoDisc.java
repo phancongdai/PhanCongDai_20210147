@@ -7,6 +7,15 @@ public class DigitalVideoDisc {
     public DigitalVideoDisc() {
 
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public DigitalVideoDisc(String title) {
         this.title = title;
     }
@@ -44,7 +53,7 @@ public class DigitalVideoDisc {
     }
 
     public String toString() {
-        return "The product[Title: "+this.title+", Category: "+this.category +", Director: "+ this.director+ ", Length: "+this.length+ ", Cost: "+this.cost+"]";
+        return String.format("DVD - %s - %s - %s - %d: %f $", title, category, director, length, cost);
     }
     public static void main(String args[]) {
         DigitalVideoDisc A = new DigitalVideoDisc("A", "B", "C", 120, 100);

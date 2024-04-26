@@ -46,6 +46,14 @@ public class Cart {
         }
     }
 
+    public void print() {
+        System.out.println("***********************CART***********************");
+        for(int i=0; i<qtyOrder; i++) {
+            product[i].toString();
+        }
+        System.out.println("Total cost:"+total_cost+"\n***************************************************");
+    }
+
     public static void main(String arg[]) {
         Cart anOrder = new Cart();
         DigitalVideoDisc dvd1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 87, 19.95f);
